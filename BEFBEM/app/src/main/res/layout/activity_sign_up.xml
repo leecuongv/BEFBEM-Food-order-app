@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backyellow"
+    tools:context="com.foa.orderfood.SignUp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo2" />
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="8dp"
+            android:background="@drawable/eddittext_style"
+            android:id="@+id/edtPhone"
+            android:hint="Số điện thoại"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+        <EditText
+            android:layout_margin="8dp"
+            android:id="@+id/edtName"
+            android:hint="Tên của bạn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/eddittext_style"
+            />
+        <EditText
+            android:layout_margin="8dp"
+            android:background="@drawable/eddittext_style"
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="95dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_style_sign_up"
+        android:text="Đăng ký"
+        android:textColor="@color/overlayActionBar" />
+
+</RelativeLayout>

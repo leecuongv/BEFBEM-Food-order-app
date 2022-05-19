@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foa.orderfoodserver.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/sharedocument"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo2"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+        <TextView
+            android:textSize="20dp"
+
+            android:textColor="@android:color/white"
+            android:id="@+id/txtSlogan"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:background="@drawable/button_style_sign_up"
+            android:layout_weight="1"
+            android:text="Đăng nhập"
+            android:textColor="@android:color/white"
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

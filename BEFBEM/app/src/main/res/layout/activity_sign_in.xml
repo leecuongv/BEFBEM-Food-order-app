@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backyellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foa.orderfood.SignIn">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp" />
+
+    <LinearLayout
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/eddittext_style"
+            android:id="@+id/edtPhone"
+            android:hint="Số điện thoại"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <EditText
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/eddittext_style"
+            android:id="@+id/edtPassword"
+            android:hint="Mật khẩu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            />
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/ckbRemember"
+            android:text="Nhớ tài khoản"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Đăng nhập"
+            android:textColor="@color/overlayActionBar"
+            android:id="@+id/btnSignIn"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:background="@drawable/button_style_sign_up"
+
+            />
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/txtForgot"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="8dp"
+            android:textSize="18dp"
+            android:text="@string/gach"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangPassOtpVetifi"
+    android:background="@drawable/backyellow"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/sharedocument"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <EditText
+        android:id="@+id/verify_code_edit"
+        android:layout_width="409dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="396dp"
+        android:background="@drawable/eddittext_style"
+        android:hint="Enter Number Your OTP"
+        android:inputType="phone"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/verifycode_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="36dp"
+
+        android:background="@drawable/button_style_sign_up"
+
+        android:gravity="center"
+        android:text="Otp verify"
+
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verify_code_edit"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/PhoneTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:text="Your Phone Number"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
