@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/backyellow"
     tools:context="com.foa.orderfood.FoodList">
+
     <com.mancj.materialsearchbar.MaterialSearchBar
         android:id="@+id/searchBar"
-        android:layout_alignParentTop="true"
-        app:mt_speechMode="false"
-        app:mt_hint="Tìm kiếm món ăn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:mt_hint="Tìm kiếm món ăn"
+        app:mt_speechMode="false" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_food"

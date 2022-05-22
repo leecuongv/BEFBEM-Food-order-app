@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">OrderFood</string>
-    <string name="slogan">Beter food, beter mood!</string>
+    <string name="slogan">Better food, better mood!</string>
     <string name="gach"><u><b><i>Bạn quên mật khẩu đăng nhập?</i></b></u></string>
     <string name="title_activity_home">Thực đơn chính</string>
 
@@ -10,6 +10,6 @@
     <string name="action_settings">Đăng xuất</string>
     <string name="facebook_app_id">162421361046767</string>
     <string name="_84">+84</string>
-    <string name="_0938472096">0938472096</string>
+    <string name="_0397436178">0397436178</string>
     <string name="facebook_login_protocol_name">fb162421361046767</string>
 </resources>
