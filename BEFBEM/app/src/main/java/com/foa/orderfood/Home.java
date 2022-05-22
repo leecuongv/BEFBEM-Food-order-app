@@ -134,6 +134,13 @@ public class Home extends AppCompatActivity
             signIn.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(signIn);
         }
+        if(id == R.id.acction_change_password)
+        {
+            Toast.makeText(this, "Đổi mật khẩu", Toast.LENGTH_SHORT).show();
+            Intent changePass = new Intent(Home.this, ChangPass.class);
+            changePass.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(changePass);
+        }
 
         return super.onOptionsItemSelected(item);
     }

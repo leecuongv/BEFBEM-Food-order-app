@@ -37,7 +37,7 @@ public class ChangPassOtpVetifi extends AppCompatActivity {
         tv= findViewById(R.id.PhoneTv);
 
         st=getIntent().getExtras().getString("Value");
-        tv.setText(st);
+        tv.setText("+84"+st);
 
         firebaseAuth = FirebaseAuth.getInstance();
 

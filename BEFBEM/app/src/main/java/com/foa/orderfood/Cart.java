@@ -138,7 +138,7 @@ public class Cart extends AppCompatActivity implements CartAdapter.OnItemClickLi
     public void deleteItem(int index) {
 
         Log.d("clicked", "deleteItem: ====================" + index);
-        Toast.makeText(this, "Đã xóa", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Đã xóa!", Toast.LENGTH_SHORT).show();
         deleteCart(index);
     }
 }

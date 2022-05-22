@@ -101,11 +101,11 @@ public class MainActivity extends AppCompatActivity {
                         Common.currentUser = user;
                         startActivity(intent);
                     } else {
-                        Toast.makeText(MainActivity.this, "Bạn đã sai mật khẩu hoặc tài khoản", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Sai mật khẩu hoặc tài khoản! ", Toast.LENGTH_LONG).show();
                     }
                 } else {
                     mDialog.dismiss();
-                    Toast.makeText(MainActivity.this, "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Đăng nhập thất bại! ", Toast.LENGTH_LONG).show();
                 }
             }
 

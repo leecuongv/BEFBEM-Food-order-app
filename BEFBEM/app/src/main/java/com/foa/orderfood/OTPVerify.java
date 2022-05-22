@@ -49,7 +49,7 @@ public class    OTPVerify extends AppCompatActivity {
                     PhoneAuthCredential credential = PhoneAuthProvider.getCredential(OTP , verification_code);
                     signIn(credential);
                 }else{
-                    Toast.makeText(OTPVerify.this, "Please Enter OTP", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(OTPVerify.this, "Vui lòng nhập mã OTP!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -61,7 +61,7 @@ public class    OTPVerify extends AppCompatActivity {
                 if (task.isSuccessful()){
                     sendToMain();
                 }else{
-                    Toast.makeText(OTPVerify.this, "Verification Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(OTPVerify.this, "Xác thực thất bại!", Toast.LENGTH_SHORT).show();
                 }
             }
         });

@@ -21,18 +21,19 @@ public class SignUp extends AppCompatActivity {
     EditText edtPhone,edtName,edtPassword;
     Button btnSignUp;
     String sdt;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+
         edtPhone =  findViewById(R.id.edtPhone);
         edtName =  findViewById(R.id.edtName);
         edtPassword =  findViewById(R.id.edtPassword);
 
         btnSignUp =  findViewById(R.id.btnSignUp);
-        sdt=getIntent().getExtras().getString("SDT");
-        edtPhone.setText(sdt);
-
+        sdt = getIntent().getExtras().getString("SDT");
+        edtPhone.setText("+84"+sdt);
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference talbe_user = database.getReference("User");
 
@@ -41,7 +42,7 @@ public class SignUp extends AppCompatActivity {
             public void onClick(View v) {
                 if (Common.isConnectedToInterner(getBaseContext())) {
                     final ProgressDialog mDialog = new ProgressDialog(SignUp.this);
-                    mDialog.setMessage("Vui lòng chờ");
+                    mDialog.setMessage("Vui lòng chờ! ");
                     mDialog.show();
 
                     talbe_user.addValueEventListener(new ValueEventListener() {
@@ -49,12 +50,12 @@ public class SignUp extends AppCompatActivity {
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             if (dataSnapshot.child(edtPhone.getText().toString()).exists()) {
                                 mDialog.dismiss();
-                                Toast.makeText(SignUp.this, "Số điện thoại đã tồn tại", Toast.LENGTH_LONG).show();
+                                Toast.makeText(SignUp.this, "Số điện thoại đã tồn tại! ", Toast.LENGTH_LONG).show();
                             } else {
                                 mDialog.dismiss();
                                 User user = new User(edtName.getText().toString(), edtPassword.getText().toString());
                                 talbe_user.child(edtPhone.getText().toString()).setValue(user);
-                                Toast.makeText(SignUp.this, "Bạn đã đăng ký thành công", Toast.LENGTH_LONG).show();
+                                Toast.makeText(SignUp.this, "Đăng ký thành công! ", Toast.LENGTH_LONG).show();
                                 finish();
                             }
                         }

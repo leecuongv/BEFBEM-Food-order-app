@@ -71,11 +71,11 @@ public class SignIn extends AppCompatActivity {
                                     Common.currentUser = user;
                                     startActivity(intent);
                                 } else {
-                                    Toast.makeText(SignIn.this, "Bạn đã sai mật khẩu hoặc tài khoản", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(SignIn.this, "Sai mật khẩu hoặc tài khoản!", Toast.LENGTH_LONG).show();
                                 }
                             } else {
                                 mDialog.dismiss();
-                                Toast.makeText(SignIn.this, "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
+                                Toast.makeText(SignIn.this, "Đăng nhập thất bại!", Toast.LENGTH_LONG).show();
                             }
                         }
 
