@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/thuctap2.iml" filepath="$PROJECT_DIR$/thuctap2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/thuctap2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/thuctap2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BEFBEM.iml" filepath="$PROJECT_DIR$/.idea/modules/BEFBEM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BEFBEM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BEFBEM.app.iml" />
     </modules>
   </component>
 </project>

@@ -17,11 +17,11 @@ public class Demo extends AppCompatActivity {
         TextView txt_Food, txt_Easy;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo);
-        //img=findViewById(R.id.imgQuay);
+        img=findViewById(R.id.imgQuay);
         txt_Food=findViewById(R.id.txt_Food);
         txt_Easy=findViewById(R.id.txt_Easy);
         Animation animFade = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate);
-        //img.startAnimation(animFade);
+        img.startAnimation(animFade);
         txt_Food.startAnimation(animFade);
         txt_Easy.startAnimation(animFade);
         Thread bamgio=new Thread(){

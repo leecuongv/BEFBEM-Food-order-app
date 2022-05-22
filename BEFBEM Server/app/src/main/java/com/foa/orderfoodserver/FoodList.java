@@ -150,7 +150,7 @@ public class FoodList extends AppCompatActivity {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             mDialog.dismiss();
-                            Toast.makeText(FoodList.this, "Đã tải xong", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(FoodList.this, "Đã tải xong ", Toast.LENGTH_SHORT).show();
                             imageFolder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
@@ -173,8 +173,8 @@ public class FoodList extends AppCompatActivity {
             }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                    double progress = (100.0*taskSnapshot.getBytesTransferred()/taskSnapshot.getTotalByteCount() );
-                    mDialog.setMessage("Đã tải xong"+progress+"%");
+                    int progress = (int) (100.0*taskSnapshot.getBytesTransferred()/taskSnapshot.getTotalByteCount() );
+                    mDialog.setMessage("Đã tải xong "+progress+"%");
                 }
             });
         }
@@ -211,7 +211,7 @@ public class FoodList extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode== PICK_IMAGE_REQUEST&& resultCode==RESULT_OK&&data!=null&&data.getData()!=null){
             saveUri=data.getData();
-            btnSelect.setText("Ảnh đã được chọn!");
+            btnSelect.setText("Đã chọn ảnh");
         }
     }
 
@@ -302,7 +302,7 @@ public class FoodList extends AppCompatActivity {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             mDialog.dismiss();
-                            Toast.makeText(FoodList.this, "Đã tải xong", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(FoodList.this, "Đã tải xong ", Toast.LENGTH_SHORT).show();
                             imageFolder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
@@ -319,8 +319,8 @@ public class FoodList extends AppCompatActivity {
             }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                    double progress = (100.0*taskSnapshot.getBytesTransferred()/taskSnapshot.getTotalByteCount() );
-                    mDialog.setMessage("Đã tải xong"+progress+"%");
+                    int progress = (int) (100.0*taskSnapshot.getBytesTransferred()/taskSnapshot.getTotalByteCount() );
+                    mDialog.setMessage("Đã tải xong "+progress+"%");
                 }
             });
         }

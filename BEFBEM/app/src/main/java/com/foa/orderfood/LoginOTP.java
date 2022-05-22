@@ -93,7 +93,7 @@ public class LoginOTP extends AppCompatActivity {
                     public void run() {
                         Intent otpIntent = new Intent(LoginOTP.this , OTPVerify.class);
                         otpIntent.putExtra("auth" , s );
-                        st=phoneNumberEdit.getText().toString();
+                        st = phoneNumberEdit.getText().toString();
                         otpIntent.putExtra("Value" , st );
                         startActivity(otpIntent);
                         finish();

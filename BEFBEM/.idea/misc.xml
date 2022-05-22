@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_cart.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_chang_pass.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_chang_pass_o_t_p.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_chang_pass_otp_vetifi.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_o_t_p_verify.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_order_status.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_sign_in.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/activity_sign_up.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/app_bar_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/cart_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/content_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/food_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/menu_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/nav_header_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Learning/Git/BEFBEM-Food-order-app/BEFBEM/app/src/main/res/layout/order_layout.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/vancu/Downloads/Compressed/doantotnghiep/thuctap2/app/src/main/res/drawable/button_style_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/vancu/Downloads/Compressed/doantotnghiep/thuctap2/app/src/main/res/drawable/button_style_sign_up.xml" value="0.1" />
         <entry key="..\:/Users/vancu/Downloads/Compressed/doantotnghiep/thuctap2/app/src/main/res/drawable/eddittext_style.xml" value="0.1" />

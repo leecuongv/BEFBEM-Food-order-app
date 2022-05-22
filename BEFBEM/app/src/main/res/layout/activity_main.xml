@@ -64,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="154dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="492dp"
+        android:layout_marginBottom="455dp"
         android:src="@drawable/logo2" />
 
     <TextView
@@ -72,11 +72,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="450dp"
+        android:layout_marginBottom="392dp"
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="BEFBEM"
-        android:textColor="#EF9A9A"
+        android:textColor="#EF5350"
         android:textSize="33dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="0dp"

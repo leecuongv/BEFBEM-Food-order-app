@@ -51,7 +51,7 @@ public class ChangPassOTP extends AppCompatActivity {
             public void onClick(View v) {
                 String country_code = countryCodeEdit.getText().toString();
                 String phone = phoneNumberEdit.getText().toString();
-                String phoneNumber = "+" + country_code + "" + phone;
+                String phoneNumber = "+84"+" "+phone;
                 if (!country_code.isEmpty() || !phone.isEmpty()){
                     PhoneAuthOptions options = PhoneAuthOptions.newBuilder(auth)
                             .setPhoneNumber(phoneNumber)
