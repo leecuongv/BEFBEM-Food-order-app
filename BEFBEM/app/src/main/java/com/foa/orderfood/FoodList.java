@@ -208,6 +208,7 @@ public class FoodList extends AppCompatActivity {
                         }
                     }
                 });
+
                 viewHolder.share_image.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
