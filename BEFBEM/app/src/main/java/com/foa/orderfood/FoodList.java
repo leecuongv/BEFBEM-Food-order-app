@@ -187,7 +187,7 @@ public class FoodList extends AppCompatActivity {
                 foodList.orderByChild("menuId").equalTo(categoryId)) {
             @Override
             protected void populateViewHolder(final FoodViewHolder viewHolder, final Food model, final int position) {
-                viewHolder.food_name.setText(model.getName());
+                viewHolder.food_name.setText(model.getName()+": "+model.getPrice());
                 Picasso.with(getBaseContext()).load(model.getImage()).into(viewHolder.food_image);
                 if (localDB.isFavorites(adapter.getRef(position).getKey()))
                     viewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
