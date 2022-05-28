@@ -199,12 +199,12 @@ public class FoodList extends AppCompatActivity {
                         {
                             localDB.addToFavorites(adapter.getRef(position).getKey());
                             viewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(FoodList.this, ""+model.getName()+"Đã thêm vào mục yêu thích", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(FoodList.this, ""+model.getName()+"Đã thêm vào danh sách yêu thích!", Toast.LENGTH_SHORT).show();
                         }
                         else {
                             localDB.removeFromFavorites(adapter.getRef(position).getKey());
                             viewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(FoodList.this, ""+model.getName()+"Đã xóa mục yêu thích", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(FoodList.this, ""+model.getName()+"Đã xóa khỏi danh sách yêu thích!", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
