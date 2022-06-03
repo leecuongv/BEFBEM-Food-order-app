@@ -18,11 +18,11 @@
             android:layout_height="wrap_content"
             android:hint="Tên danh mục"
             android:inputType="text"
-            android:textColorHint="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
             android:textSize="34sp"
-            app:met_baseColor="@color/colorPrimary"
+            app:met_baseColor="@color/overlayActionBar"
             app:met_floatingLabel="highlight"
-            app:met_primaryColor="@color/colorPrimary"
+            app:met_primaryColor="@color/colorPrimaryDark"
             app:met_singleLineEllipsis="true" />
         <LinearLayout
             android:weightSum="2"

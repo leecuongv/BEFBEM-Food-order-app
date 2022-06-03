@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
     app:cardElevation="4dp">
+
     <LinearLayout
-        android:layout_margin="20dp"
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtName"
@@ -18,59 +20,58 @@
             android:layout_height="wrap_content"
             android:hint="Tên món ăn"
             android:inputType="text"
-            android:textColorHint="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
             android:textSize="24sp"
-            app:met_baseColor="@color/colorPrimary"
+            app:met_baseColor="@color/overlayActionBar"
             app:met_floatingLabel="highlight"
-            app:met_primaryColor="@color/colorPrimary"
+            app:met_primaryColor="@color/colorPrimaryDark"
             app:met_singleLineEllipsis="true" />
+
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtDescription"
-            android:hint="Mô tả"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/colorPrimary"
+            android:hint="Mô tả"
             android:inputType="textMultiLine"
+            android:textColorHint="@color/colorPrimaryDark"
             android:textSize="24sp"
-            app:met_baseColor="@color/colorPrimary"
+            app:met_baseColor="@color/overlayActionBar"
             app:met_floatingLabel="highlight"
-            app:met_primaryColor="@color/colorPrimary"
-            app:met_singleLineEllipsis="true"
-            />
+            app:met_primaryColor="@color/colorPrimaryDark"
+            app:met_singleLineEllipsis="true" />
+
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtPrice"
-            android:hint="Giá"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/colorPrimary"
+            android:hint="Giá"
             android:inputType="text"
+            android:textColorHint="@color/overlayActionBar"
             android:textSize="24sp"
-            app:met_baseColor="@color/colorPrimary"
+            app:met_baseColor="#000000"
             app:met_floatingLabel="highlight"
-            app:met_primaryColor="@color/colorPrimary"
-            app:met_singleLineEllipsis="true"
-            />
+            app:met_primaryColor="@color/overlayActionBar"
+            app:met_singleLineEllipsis="true" />
+
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtDiscount"
-            android:hint="Giảm giá"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/colorPrimary"
+            android:hint="Giảm giá"
             android:inputType="text"
+            android:textColorHint="@color/overlayActionBar"
             android:textSize="24sp"
-            app:met_baseColor="@color/colorPrimary"
+            app:met_baseColor="@color/overlayActionBar"
             app:met_floatingLabel="highlight"
-            app:met_primaryColor="@color/colorPrimary"
-            app:met_singleLineEllipsis="true"
-            />
-
+            app:met_primaryColor="@color/overlayActionBar"
+            app:met_singleLineEllipsis="true" />
 
 
         <LinearLayout
-            android:weightSum="2"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
 
             <Button
                 android:id="@+id/btnSelect"
@@ -85,20 +86,20 @@
                 android:shadowColor="@android:color/black"
                 android:text="Chọn ảnh"
                 android:textColor="@android:color/white" />
+
             <Button
-                android:background="@drawable/button_style_sign_up"
-                android:layout_weight="1"
-                android:text="Tải lên"
-                android:textColor="@android:color/white"
                 android:id="@+id/btnUpLoad"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
                 android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style_sign_up"
                 android:shadowColor="@android:color/black"
-                />
+                android:text="Tải lên"
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
     </LinearLayout>
