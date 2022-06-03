@@ -39,7 +39,7 @@
         android:layout_below="@+id/Tv1"
         android:layout_alignStart="@+id/input_phone"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/eddittext_style"
         android:gravity="center"
@@ -58,7 +58,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="140dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/eddittext_style"
         android:hint="0397436178"
@@ -84,7 +84,7 @@
         android:gravity="center"
 
         android:text="Send Otp"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_phone"
         tools:ignore="MissingConstraints" />

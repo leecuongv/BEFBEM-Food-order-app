@@ -42,7 +42,6 @@ public class Demo extends AppCompatActivity {
         };
         bamgio.start();
     }
-    //sau khi chuyển sang màn hình chính, kết thúc màn hình chào
     protected void onPause(){
         super.onPause();
         finish();

@@ -44,7 +44,7 @@
     </com.google.android.material.appbar.AppBarLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnCart"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/subColor"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp"
         app:layout_anchor="@id/app_bar_layout"
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content" />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnRating"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/subColor"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp"
         app:layout_anchor="@id/app_bar_layout"

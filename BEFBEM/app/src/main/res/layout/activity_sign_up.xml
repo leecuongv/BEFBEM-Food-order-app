@@ -71,6 +71,6 @@
         android:layout_weight="1"
         android:background="@drawable/button_style_sign_up"
         android:text="Đăng ký"
-        android:textColor="@color/overlayActionBar" />
+        android:textColor="@color/textColor" />
 
 </RelativeLayout>

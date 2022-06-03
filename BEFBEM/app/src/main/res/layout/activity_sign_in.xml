@@ -57,16 +57,16 @@
 
         <Button
 
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Đăng nhập"
-            android:textColor="@color/overlayActionBar"
             android:id="@+id/btnSignIn"
-            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:shadowColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/button_style_sign_up"
+            android:shadowColor="@android:color/black"
+            android:text="Đăng nhập"
+            android:textColor="@color/textColor"
 
             />
         <TextView xmlns:android="http://schemas.android.com/apk/res/android"

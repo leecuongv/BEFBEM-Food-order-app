@@ -11,8 +11,9 @@
         android:id="@+id/searchBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
         android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="#FFC107"
         app:mt_hint="Tìm kiếm món ăn"
         app:mt_speechMode="false" />
 

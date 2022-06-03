@@ -42,12 +42,6 @@
                 android:textStyle="italic" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnxoa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="xóa"></Button>
-
         <ImageView
             android:id="@+id/cart_item_count"
             android:layout_width="20dp"

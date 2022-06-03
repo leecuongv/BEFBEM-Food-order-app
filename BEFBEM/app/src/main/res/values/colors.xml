@@ -4,6 +4,10 @@
     <color name="colorPrimaryDark">#F57F17</color>
     <color name="colorAccent">#FDD835</color>
 
+    <color name="mainColor">#FFCA28</color>
+    <color name="subColor">#162535</color>
+    <color name="textColor">#fbf9ea</color>
+
     <color name="btnSignUp">#FB8C00</color>
     <color name="btnSignActive">#F6EA07</color>
 

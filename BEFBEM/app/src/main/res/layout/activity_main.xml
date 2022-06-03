@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backyellow"
+    android:background="@color/textColor"
     tools:context="com.foa.orderfood.MainActivity">
 
     <LinearLayout
@@ -20,6 +20,7 @@
             android:layout_width="280dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:text="slogan"
             android:textColor="@color/colorAccent"
             android:textSize="20dp" />
 
@@ -76,7 +77,7 @@
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="BEFBEM"
-        android:textColor="#EF5350"
+        android:textColor="@color/mainColor"
         android:textSize="33dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="0dp"

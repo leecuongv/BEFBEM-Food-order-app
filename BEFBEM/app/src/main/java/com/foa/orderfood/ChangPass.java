@@ -41,7 +41,7 @@ public class ChangPass extends AppCompatActivity {
             public void onClick(View v) {
                 if (Common.isConnectedToInterner(getBaseContext())) {
                     final ProgressDialog mDialog = new ProgressDialog(ChangPass.this);
-                    mDialog.setMessage("Vui lòng chờ");
+                    mDialog.setMessage("Vui lòng chờ...");
                     mDialog.show();
 
                     talbe_user.addValueEventListener(new ValueEventListener() {
@@ -52,11 +52,11 @@ public class ChangPass extends AppCompatActivity {
 
                                 User user = new User(edtName.getText().toString(), edtPassword.getText().toString());
                                 talbe_user.child(edtPhone.getText().toString()).setValue(user);
-                                Toast.makeText(ChangPass.this, "Bạn thay đổi thành công", Toast.LENGTH_LONG).show();
+                                Toast.makeText(ChangPass.this, "Bạn đổi mật khẩu thành công thành công!", Toast.LENGTH_LONG).show();
                                 finish();
                             } else {
                                 mDialog.dismiss();
-                                Toast.makeText(ChangPass.this, "Vui Lòng kiểm tra lại SDt", Toast.LENGTH_LONG).show();
+                                Toast.makeText(ChangPass.this, "Vui Lòng kiểm tra lại số điện thoại!", Toast.LENGTH_LONG).show();
                             }
                         }
 
@@ -68,7 +68,7 @@ public class ChangPass extends AppCompatActivity {
                     });
                 }
                 else {
-                    Toast.makeText(ChangPass.this,"Hãy kiểm tra đường truyền Internet của bạn",Toast.LENGTH_LONG).show();
+                    Toast.makeText(ChangPass.this,"Hãy kiểm tra kết nối Internet!",Toast.LENGTH_LONG).show();
                     return;
                 }
             }

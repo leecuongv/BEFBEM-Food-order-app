@@ -67,7 +67,7 @@ public class Cart extends AppCompatActivity implements CartAdapter.OnItemClickLi
     }
     private void showAlertDialog() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(Cart.this);
-        alertDialog.setTitle("Quý khách vui lòng giữ điện thoại để cửa hàng tiện liên lạc");
+        alertDialog.setTitle("Quý khách vui lòng chú ý điện thoại để cửa hàng tiện liên lạc!");
 
         alertDialog.setMessage("Nhập vào địa chỉ của bạn:  ");
         final EditText edtAddress = new EditText(Cart.this);
@@ -90,7 +90,7 @@ public class Cart extends AppCompatActivity implements CartAdapter.OnItemClickLi
                 );
                 requests.child(String.valueOf(System.currentTimeMillis())).setValue(request);
                 new Database(getBaseContext()).cleanCart();
-                Toast.makeText(Cart.this,"Cảm ơn , chúng tôi đang mang thức ăn đến cho bạn",Toast.LENGTH_LONG).show();
+                Toast.makeText(Cart.this,"Cảm ơn, vui lòng chờ, thức ăn đang được mang đến!",Toast.LENGTH_LONG).show();
                 finish();
             }
         });

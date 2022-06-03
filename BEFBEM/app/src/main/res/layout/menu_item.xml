@@ -21,14 +21,14 @@
 
         <TextView
             android:id="@+id/menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#4f0e0d0e"
+            android:gravity="center"
             android:text="Tên tài liệu"
             android:textColor="@android:color/white"
-            android:background="#4f0e0d0e"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:layout_alignParentBottom="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textSize="20sp" />
     </RelativeLayout>
 
 

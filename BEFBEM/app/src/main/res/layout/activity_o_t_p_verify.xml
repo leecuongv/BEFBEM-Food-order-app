@@ -25,7 +25,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="388dp"
         android:background="@drawable/eddittext_style"
-        android:hint="Enter Number Your OTP"
+        android:hint="Nhập OTP"
         android:inputType="phone"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,9 +43,9 @@
         android:background="@drawable/button_style_sign_up"
 
         android:gravity="center"
-        android:text="Otp verify"
+        android:text="Xác nhận"
 
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/verify_code_edit"
         tools:ignore="MissingConstraints" />
@@ -55,11 +55,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="316dp"
-        android:text="Your Phone Number"
         android:gravity="center"
+        android:text="Nhập mã OTP nhận được"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="23dp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

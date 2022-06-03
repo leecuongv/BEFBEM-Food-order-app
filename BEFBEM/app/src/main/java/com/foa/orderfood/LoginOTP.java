@@ -62,7 +62,7 @@ public class LoginOTP extends AppCompatActivity {
                     PhoneAuthProvider.verifyPhoneNumber(options);
                     System.out.println(phoneNumber);
                 }else{
-                    processText.setText("Vui lòng điền đầy đủ thông tin");
+                    processText.setText("Vui lòng điền đầy đủ thông tin!");
                     processText.setTextColor(Color.RED);
                     processText.setVisibility(View.VISIBLE);
                 }
@@ -87,7 +87,7 @@ public class LoginOTP extends AppCompatActivity {
 
                 //sometime the code is not detected automatically
                 //so user has to manually enter the code
-                processText.setText("OTP has been Sent");
+                processText.setText("OTP đã được gửi");
                 processText.setVisibility(View.VISIBLE);
                 new Handler().postDelayed(new Runnable() {
                     @Override

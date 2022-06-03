@@ -39,8 +39,7 @@ class CartViewHolder extends RecyclerView.ViewHolder implements View.OnCreateCon
         imd_cart_count = itemView.findViewById(R.id.cart_item_count);
         this.itemClickListener = onItemClickListener;
         itemView.setOnCreateContextMenuListener(this);
-        btnXoa = itemView.findViewById(R.id.btnxoa);
-        btnXoa.setOnLongClickListener(this);
+
     }
     @Override
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {

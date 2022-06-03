@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backyellow"
+    android:background="@color/textColor"
     tools:context=".Demo">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -29,23 +30,25 @@
             android:fontFamily="cursive"
             android:gravity="center"
             android:text="BEFBEM"
-            android:textColor="#66BB6A"
+            android:textColor="@color/mainColor"
             android:textSize="33dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="334dp" />
 
-        <TextView
-            android:id="@+id/txt_Easy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="serif-monospace"
-            android:gravity="center"
-            android:text="@string/slogan"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="366dp" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_Easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/slogan"
+        android:textColor="@color/subColor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
