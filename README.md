@@ -160,3 +160,16 @@ src="/Review/History.png" width="500px">
 Người dùng có thể theo dõi tình trạng của các đơn hàng của mình tại đây.
 </div>
 
+### Một số hình ảnh khác
+<img align="left" 
+src="/Review/img1.png" width="500px">
+<br>
+<img align="right" 
+src="/Review/img2.png" width="500px">
+<br>
+<img align="left" 
+src="/Review/img3.png" width="500px">
+<br>
+<img align="right" 
+src="/Review/img4.png" width="500px">
+<br>
