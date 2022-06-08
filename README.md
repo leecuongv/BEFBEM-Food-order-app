@@ -55,9 +55,8 @@ Better **Food**,better  **Mood**!
 <img align="center" src="/Review/Login.png" width="500px">
 
 </div>
-<div <center>Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.</center>
-
-
+<div 
+<center>Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.</center>
 </div>
 <br>
 <div align="center">
