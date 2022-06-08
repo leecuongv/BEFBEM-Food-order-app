@@ -107,3 +107,56 @@ Chức năng tìm kiếm tiện dụng bằng những thao tác đơn giản.
 Hỗ trợ lựa chọn Header để tìm kiếm.
 </div>
 
+<div align="center">
+
+### Danh sách món ăn
+
+---
+<img align="center" 
+src="/Review/FoodList.png" width="500px">
+<br>
+Những món ăn được liệt kê dưới dạng danh sách kèm hình ảnh để người dùng dễ dàng chọn lựa.
+</div>
+
+<div align="center">
+
+### Chi tiết món ăn
+
+---
+<img align="center" 
+src="/Review/FoodDetail.png" width="500px">
+<br>
+Giao diện đặt món ăn có các thông tin bao gồm: 
+- Tên món 
+- Hình ảnh
+- Giá bán
+- Số sao đánh giá trung bình
+- Bình luận về món ăn
+Những thông tin này sẽ giúp người dùng dễ dàng chọn được món ăn hơn.
+</div>
+
+<div align="center">
+
+### Giao diện thanh toán
+
+---
+<img align="center" 
+src="/Review/Payment.png" width="500px">
+
+<img align ="center"
+src="/Review/AddressInput.png" width="500px">
+<br>
+Sau khi thêm vào giỏ hàng thì người dùng tiến hành đặt hàng và nhập địa chỉ.
+</div>
+
+<div align="center">
+
+### Lịch sử đặt hàng
+
+---
+<img align="center" 
+src="/Review/History.png" width="500px">
+<br>
+Người dùng có thể theo dõi tình trạng của các đơn hàng của mình tại đây.
+</div>
+
