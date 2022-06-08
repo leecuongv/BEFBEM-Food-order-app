@@ -45,7 +45,7 @@ Better **Food**,better  **Mood**!
 ## Chức Năng Chính
 &nbsp;
 
-<img align="center" src="/Review/Login.png" width="500px">
+
 
 <div align="center">
 
@@ -54,7 +54,7 @@ Better **Food**,better  **Mood**!
 ---
 
 Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
-
+<img align="center" src="/Review/Login.png" width="500px">
 </div>
 
 <br>
