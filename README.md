@@ -57,7 +57,7 @@ Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br>
+<br>
 
 <img align="center" src="/Review/capture(89).png" width="500px">
 
@@ -72,7 +72,7 @@ Trang Chủ được thiết kế **trực quan** giúp người sử dụng có
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br>
+<br>
 
 <img align="center" src="/Review/Main.png" width="500px">
 
@@ -90,7 +90,7 @@ Trang quản lý tối giản với hình **tính năng hỗ trợ**:
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br>
+<br>
 
 <img align="center" src="/Review/LeftNavbar.png" width="500px">
 
@@ -104,9 +104,9 @@ Menu Chọn **tối giản**, **gọn gàng**.
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br>
+<br>
 
-<img align="center" src="/Review/Seaching.png" width="500px">
+<img align="center" src="/Review/Searching.png" width="500px">
 
 <div align="center">
 
