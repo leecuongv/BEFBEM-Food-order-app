@@ -52,68 +52,45 @@ Better **Food**,better  **Mood**!
 ### Trang Đăng Nhập
 
 ---
-
-Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
 <img align="center" src="/Review/Login.png" width="500px">
+Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
 </div>
-
 <br>
-
-<img align="center" src="/Review/capture(89).png" width="500px">
-
 <div align="center">
 
 ### Trang Chủ
 
 ---
-
+<img align="center" src="/Review/Main.png" width="500px">
 Trang Chủ được thiết kế **trực quan** giúp người sử dụng có cái nhìn **tổng quan về hệ thống**.
 
 
 </div>
 
 <br>
-
-<img align="center" src="/Review/Main.png" width="500px">
-
 <div align="center">
-
-### Quản Lý Phiếu Nhập
-
----
-
-Trang quản lý tối giản với hình **tính năng hỗ trợ**:
-+ Tìm Kiếm
-+ Lọc Thông Tin
-+ Table đa dụng
-+ ...
-
-</div>
-
 <br>
-
-<img align="center" src="/Review/LeftNavbar.png" width="500px">
 
 <div align="center">
 
 ### Menu Chọn
 
 ---
-
+<img align="center" src="/Review/LeftNavbar.png" width="500px">
 Menu Chọn **tối giản**, **gọn gàng**.
 
 </div>
 
 <br>
 
-<img align="center" src="/Review/Searching.png" width="500px">
+
 
 <div align="center">
 
 ### Tìm Kiếm
 
 ---
-
+<img align="center" src="/Review/Searching.png" width="500px">
 Chức năng tìm kiếm tiện dụng bằng những thao tác đơn giản.
 
 Hỗ trợ lựa chọn Header để tìm kiếm.
