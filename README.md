@@ -9,8 +9,6 @@ Better **Food**,better  **Mood**!
 
 ![Completion](https://img.shields.io/badge/style-97%25-00e600?label=Completion&logo=java&logoColor=red&style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Java-orange.svg)
-![Team](https://img.shields.io/badge/Team-SGU-00ffff.svg)
-![Project](https://img.shields.io/badge/Project-Java%20%2F%20HK2-1affa3.svg)
 
 </div>
 
