@@ -1,11 +1,11 @@
 
 <div align="center">
 
-# Library Management System
+# Food Order App 
 
-A **beautiful** and **easy-to-use** Management Tool
+Better **Food**,better  **Mood**!
 
-<img src="/Review/Banner.png" width="50%">
+<img src="/Review/Loading.png" width="50%">
 
 ![Completion](https://img.shields.io/badge/style-97%25-00e600?label=Completion&logo=java&logoColor=red&style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Java-orange.svg)
@@ -45,9 +45,9 @@ A **beautiful** and **easy-to-use** Management Tool
 ## Chức Năng Chính
 &nbsp;
 
-<img align="right" src="/Review/Login GUI.png" width="500px">
+<img align="center" src="/Review/Login.png" width="500px">
 
-<div align="left">
+<div align="center">
 
 ### Trang Đăng Nhập
 
@@ -59,9 +59,9 @@ Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
 
 <br><br><br><br><br><br><br><br><br><br>
 
-<img align="left" src="/Review/capture(89).png" width="500px">
+<img align="center" src="/Review/capture(89).png" width="500px">
 
-<div align="right">
+<div align="center">
 
 ### Trang Chủ
 
@@ -74,9 +74,9 @@ Trang Chủ được thiết kế **trực quan** giúp người sử dụng có
 
 <br><br><br><br><br><br><br><br><br><br>
 
-<img align="right" src="/Review/capture(90).png" width="500px">
+<img align="center" src="/Review/Main.png" width="500px">
 
-<div align="left">
+<div align="center">
 
 ### Quản Lý Phiếu Nhập
 
@@ -92,9 +92,9 @@ Trang quản lý tối giản với hình **tính năng hỗ trợ**:
 
 <br><br><br><br><br><br><br><br><br><br>
 
-<img align="left" src="/Review/capture(97).png" width="500px">
+<img align="center" src="/Review/LeftNavbar.png" width="500px">
 
-<div align="right">
+<div align="center">
 
 ### Menu Chọn
 
@@ -106,9 +106,9 @@ Menu Chọn **tối giản**, **gọn gàng**.
 
 <br><br><br><br><br><br><br><br><br><br>
 
-<img align="right" src="/Review/capture(102).png" width="500px">
+<img align="center" src="/Review/Seaching.png" width="500px">
 
-<div align="left">
+<div align="center">
 
 ### Tìm Kiếm
 
