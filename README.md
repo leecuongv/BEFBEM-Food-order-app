@@ -15,8 +15,7 @@ Better **Food**,better  **Mood**!
 </div>
 
 ---
-
-**Library Management System** là một phần mềm quản lý thư viện, hướng đến sự đơn giản và tiện lợi cho người dùng. Phần mềm hỗ trợ nhiều tính năng hữu ích giúp việc quản lý dễ dàng hơn.
+Trong cuộc sống hiện đại, những app đặt đồ ăn online vốn chẳng còn xa lạ. Trong tình hình dịch bệnh Covid19, khi các nhà hàng, quán ăn không phục vụ khách tại chỗ, thì những app đặt đồ ăn mùa dịch lại càng là “chân ái”. Đây là lý do chúng tôi chọn đề tài “Xây dựng app đặt đồ ăn online **Food Order App**”.
 
 - [Thành Viên Nhóm](#thành-viên-nhóm)
 - [Tài Khoản](#tài-khoản)
@@ -46,19 +45,25 @@ Better **Food**,better  **Mood**!
 &nbsp;
 
 
+<div align="center">
 
+### Màn hình loading
+
+---
+<img align="center" 
+src="/Review/Loading.png" width="500px">
+<br>
+Đây là màn hình chờ khi vào App.
+</div>
 <div align="center">
 
 ### Trang Đăng Nhập
 
 ---
 <img align="center" 
-src="/Review/Login.png" width="500px">
+src="/Review/Home.png" width="500px">
 <br>
 Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
-</div>
-<div 
-
 </div>
 <br>
 <div align="center">
@@ -66,10 +71,10 @@ Trang đăng nhập được thiết kế **hiện đại**, **tối giản**.
 ### Trang Chủ
 
 ---
-<img align="center" src="/Review/Main.png" width="500px">
+<img align="center" 
+src="/Review/Main.png" width="500px">
+<br>
 Trang Chủ được thiết kế **trực quan** giúp người sử dụng có cái nhìn **tổng quan về hệ thống**.
-
-
 </div>
 
 <br>
@@ -81,24 +86,24 @@ Trang Chủ được thiết kế **trực quan** giúp người sử dụng có
 ### Menu Chọn
 
 ---
-<img align="center" src="/Review/LeftNavbar.png" width="500px">
+<img align="center" 
+src="/Review/LeftNavbar.png" width="500px">
+<br>
 Menu Chọn **tối giản**, **gọn gàng**.
 
 </div>
 
 <br>
 
-
-
 <div align="center">
 
 ### Tìm Kiếm
 
 ---
-<img align="center" src="/Review/Searching.png" width="500px">
+<img align="center" 
+src="/Review/Searching.png" width="500px">
+<br>
 Chức năng tìm kiếm tiện dụng bằng những thao tác đơn giản.
-
 Hỗ trợ lựa chọn Header để tìm kiếm.
-
 </div>
 
