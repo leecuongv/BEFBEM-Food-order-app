@@ -20,8 +20,6 @@ Trong cuộc sống hiện đại, những app đặt đồ ăn online vốn ch�
 - [Thành Viên Nhóm](#thành-viên-nhóm)
 - [Tài Khoản](#tài-khoản)
 - [Chức Năng Chính](#chức-năng-chính)
-- [Chức Năng Nâng Cao](#chức-năng-nâng-cao)
-- [Screenshot](#screenshot)
 
 ---
 <br><br>
